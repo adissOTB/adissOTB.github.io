@@ -276,11 +276,11 @@ p{
 }
 
 .experience .image .im__img{
-    /*position: relative;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    display: block;*/
+    display: block;
     width: 100%;    
     height: 300px;
 }
@@ -331,6 +331,31 @@ p{
 
 .experience .image .img__overlay .img__description span{
     font-weight: bold;
+}
+
+.skills .slider{
+    margin: 50px auto;
+    width: 55%;
+}
+
+.skills .slider .img-box img{
+    position: relative;
+    width: 100%;
+}
+
+.batn{
+    border: none;
+    outline: none;
+    background:rgb(66, 66, 66);
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.batn:hover{
+    background: black;
+    letter-spacing: 6px;
 }
 
 .contact{
